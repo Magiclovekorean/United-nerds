@@ -37,7 +37,7 @@ Aquest és un lloc web creat amb Astro que presenta el moviment United nerds. El
 └── pnpm-lock.yaml
 ```
 
-## 🔧 Comandos
+## 🔧 Comands
 
 Tots els comandos s'executen des de l'arrel del projecte, des d'un terminal:
 
