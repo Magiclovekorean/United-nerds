@@ -80,10 +80,6 @@ El projecte utilitza un tema fosc amb:
 - Font: Noto Sans (Google Fonts)
 - Navegació sticky amb iconos i enllaços amb efectes hover
 
-## 🤝 Contribuir
-
-Per contribuir al projecte, pots visitar el [repositori de GitHub](https://github.com/Magiclovekorean/United-nerds).
-
 ## 📚 Recursos
 
 - [Documentació d'Astro](https://docs.astro.build)
