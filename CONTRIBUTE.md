@@ -1,6 +1,6 @@
 # 🤝 Guia de Contribució
 
-**Tothom pot contribuir a aquest projecte!** Estem encantats de rebre contribucions de qualsevol persona que vulgui ajudar a fer créixer el moviment United nerds.
+**Tothom pot contribuir a aquest projecte!** Estic encantat de rebre contribucions de qualsevol persona que vulgui ajudar a fer créixer el moviment United nerds.
 
 ## 🌟 Per què contribuir?
 
@@ -104,7 +104,7 @@ Després, crea un Pull Request:
 
 ### 8. Revisió
 
-El teu Pull Request serà revisat i podria demanar-se't canvis o aclariments. No t'amoïnis, això és part normal del procés!
+Jo revisaré el teu Pull Request i podria demanar-te canvis o aclariments. No t'amoïnis, això és part normal del procés!
 
 ## 📋 Estil de Codi
 
