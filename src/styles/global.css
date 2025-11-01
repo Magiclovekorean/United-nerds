@@ -1,12 +1,62 @@
-.icon{
-    width: 20px;
-    height: 20px;
+.icon {
+    width: 49px;
+    border-radius: 10px;
 }
+
 
 nav .nav-list {
     list-style-type: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+  
+.icon-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+    a{
+    text-decoration: none;
+        color: white;
+        &:hover,&:active,&:focus {
+            color: #666;
+        }
+    }
 }
 
 body {
     background-color: #292E38;
+    color: white;
+      font-family: "Noto Sans", sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #808080;
+    background-color: transparent;
+    height: 0;
+}
+
+main{
+    padding-inline: 20vw;
+    h2{
+        font-size: 1.5rem;
+    }
+    p{
+        color: #ffffffe8;
+    }
 }
