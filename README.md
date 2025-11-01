@@ -1,46 +1,89 @@
-# Astro Starter Kit: Basics
+# United Nerds
 
-```sh
-pnpm create astro@latest -- --template basics
+**United nerds** és un moviment que busca aturar la discriminació, segregació i discriminació indirecta cap als nerds (els diferents).
+
+## 📖 Sobre el Projecte
+
+Aquest és un lloc web creat amb Astro que presenta el moviment United nerds. El projecte busca crear consciència sobre la discriminació cap als nerds i promoure la inclusió i l'acceptació de les persones diferents.
+
+## 🚀 Tecnologies Utilitzades
+
+- **Astro** - Framework web modern per crear llocs estàtics ràpids
+- **CSS** - Estils globals amb variables i responsivitat
+- **Noto Sans** - Font de Google Fonts per a la tipografia
+
+## 📁 Estructura del Projecte
+
 ```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
 /
 ├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+│   ├── favicon.svg
+│   ├── icon.webp
+│   └── github-icon.astro
+├── src/
+│   ├── components/
+│   │   ├── Index/
+│   │   │   ├── About.astro
+│   │   │   └── Header.astro
+│   │   └── Nav.astro
+│   ├── layouts/
+│   │   └── Layout.astro
+│   ├── pages/
+│   │   └── index.astro
+│   └── styles/
+│       └── global.css
+├── astro.config.mjs
+├── package.json
+└── pnpm-lock.yaml
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 🔧 Comandos
 
-## 🧞 Commands
+Tots els comandos s'executen des de l'arrel del projecte, des d'un terminal:
 
-All commands are run from the root of the project, from a terminal:
+| Comando              | Acció                                            |
+| :------------------- | :----------------------------------------------- |
+| `pnpm install`       | Instal·la les dependències                       |
+| `pnpm dev`           | Inicia el servidor de desenvolupament a `localhost:4321` |
+| `pnpm build`         | Construeix el lloc per a producció a `./dist/`  |
+| `pnpm preview`       | Previsualitza la construcció localment abans de desplegar |
+| `pnpm astro ...`     | Executa comandes CLI com `astro add`, `astro check` |
+| `pnpm astro -- --help` | Obté ajuda usant l'Astro CLI                   |
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+## 📄 Pàgines i Components
 
-## 👀 Want to learn more?
+### Pàgina Principal (`index.astro`)
+Pàgina d'inici que inclou:
+- **Header**: Títol principal "UNITED NERDS"
+- **About**: Secció que explica què és el moviment United nerds
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### Components
+
+- **Nav.astro**: Navegació principal amb enllaços a:
+  - Pàgina d'inici
+  - Repositori de GitHub per contribuir
+  
+- **Header.astro**: Component que mostra el títol principal del moviment
+
+- **About.astro**: Component que conté la descripció i missatge del moviment
+
+- **Layout.astro**: Layout principal que inclou:
+  - Meta tags i configuració del document
+  - Càrrega de la font Noto Sans de Google Fonts
+  - Estructura HTML base amb el component Nav
+
+## 🎨 Estils
+
+El projecte utilitza un tema fosc amb:
+- Color de fons: `#292E38`
+- Color de text: blanc amb variacions
+- Font: Noto Sans (Google Fonts)
+- Navegació sticky amb iconos i enllaços amb efectes hover
+
+## 🤝 Contribuir
+
+Per contribuir al projecte, pots visitar el [repositori de GitHub](https://github.com/Magiclovekorean/United-nerds).
+
+## 📚 Recursos
+
+- [Documentació d'Astro](https://docs.astro.build)
