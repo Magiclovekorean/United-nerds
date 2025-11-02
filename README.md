@@ -63,7 +63,7 @@ Pàgina d'inici que inclou:
   - Pàgina d'inici
   - Repositori de GitHub per contribuir
   
-- **Header.astro**: Component que mostra el títol principal del moviment
+- **Hero.astro**: Component que mostra el títol principal del moviment
 
 - **About.astro**: Component que conté la descripció i missatge del moviment
 
@@ -78,7 +78,7 @@ El projecte utilitza un tema fosc amb:
 - Color de fons: `#292E38`
 - Color de text: blanc amb variacions
 - Font: Noto Sans (Google Fonts)
-- Navegació sticky amb iconos i enllaços amb efectes hover
+- Navegació sticky amb icones i enllaços amb efectes hover
 
 ## 📚 Recursos
 
