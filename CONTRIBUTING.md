@@ -1,134 +1,135 @@
-# 🤝 Guia de Contribució
+# 🤝 Contribution Guide
 
-**Tothom pot contribuir a aquest projecte!** Estic encantat de rebre contribucions de qualsevol persona que vulgui ajudar a fer créixer el moviment United nerds.
+**Everyone can contribute to this project!** I'm happy to receive contributions from anyone who wants to help grow the United Nerds movement.
 
-## 🌟 Per què contribuir?
+## 🌟 Why contribute?
 
-United nerds és un moviment obert que busca aturar la discriminació cap als nerds. La teva contribució, per petita que sigui, pot fer una gran diferència. Pots ajudar de diverses maneres:
+United Nerds is an open movement that seeks to stop discrimination against nerds. Your contribution, no matter how small, can make a big difference. You can help in several ways:
 
-- 🐛 Reportar errors o bugs
-- 📝 Millorar la documentació
-- 🎨 Millorar el disseny i els estils
-- 🌐 Traduir el contingut
+- 🐛 Report bugs
+- 📝 Improve documentation
+- 🎨 Improve design and styles
+- 🌐 Translate content
 
-## 🚀 Com Contribuir
+## 🚀 How to Contribute
 
-### 1. Fork del Repositori
+### 1. Fork the Repository
 
-Primer, fes un fork del repositori al teu compte de GitHub:
+First, fork the repository to your GitHub account:
 
-1. Clica al botó "Fork" a la cantonada superior dreta
-2. Això crearà una còpia del repositori al teu compte
+1. Click the "Fork" button in the top-right corner
+2. This will create a copy of the repository in your account
 
-### 2. Clonar el Repositori
+### 2. Clone the Repository
 
-Clona el teu fork localment:
+Clone your fork locally:
 
 ```bash
-git clone https://github.com/EL-TEU-USUARI/United-nerds.git
+git clone https://github.com/YOUR-USERNAME/United-nerds.git
 cd United-nerds
 ```
 
-### 3. Configurar el Projecte
+### 3. Set up the Project
 
-Instal·la les dependències:
+Install dependencies:
 
 ```bash
 pnpm install
 ```
 
-Si no tens `pnpm` instal·lat, pots instal·lar-lo amb:
+If you don't have `pnpm` installed, you can install it with:
 
 ```bash
 npm install -g pnpm
 ```
 
-### 4. Crear una Branca
+### 4. Create a Branch
 
-Crea una branca nova per a la teva contribució:
+Create a new branch for your contribution:
 
 ```bash
-git checkout -b nom-de-la-teva-feina
+git checkout -b feature/new-feature
 ```
 
-**Consells per al nom de la branca:**
-- `fix/nom-del-bug` - Per correccions de bugs
-- `feat/nova-funcionalitat` - Per noves funcionalitats
-- `docs/millora-documentacio` - Per millores a la documentació
-- `style/millora-estils` - Per millores visuals
-- `translate/idioma` - Per traduccions
+**Branch naming tips:**
+- `fix/bug-name` - For bug fixes
+- `feat/new-feature` - For new features
+- `docs/docs-improvement` - For documentation improvements
+- `style/style-improvement` - For visual improvements
+- `translate/language` - For translations
 
-### 5. Fer Canvis
+### 5. Make Changes
 
-Ara pots fer els teus canvis:
+Now you can make your changes:
 
-- Edita els fitxers necessaris
-- Prova els canvis localment executant `pnpm dev`
+- Edit the necessary files
+- Test changes locally by running `pnpm dev`
+  - Note for VS Code users: the dev server usually starts automatically via `.vscode/tasks.json` (task `pnpm: dev`) when you open the folder. You can also trigger it from “Tasks: Run Task”.
 
-### 6. Commit dels Canvis
+### 6. Commit Changes
 
-Fes commit dels teus canvis amb missatges clars i descriptius:
+Commit your changes with clear and descriptive messages:
 
 ```bash
 git add .
-git commit -m "Descripció clara del que has fet"
+git commit -m "Clear description of what you did"
 ```
 
-**Consells per als missatges de commit:**
-- **Escriu-los en anglès**
-- Siguen clars i descriptius
-- Utilitzen l'imperatiu ("Add feature X" no "Added feature X")
-- Siguen concisos (màxim 50 caràcters per a la primera línia)
-- **Exemples:**
+**Commit message tips:**
+- **Write them in English**
+- Be clear and descriptive
+- Use the imperative mood ("Add feature X" not "Added feature X")
+- Keep them concise (max 50 characters for the first line)
+- **Examples:**
   - `fix: resolve navigation bar styling issue`
   - `feat: add new About section component`
   - `docs: update README with contribution guidelines`
   - `style: improve button hover effects`
 
-### 7. Push i Pull Request
+### 7. Push and Pull Request
 
-Puja els canvis al teu fork:
+Push your changes to your fork:
 
 ```bash
-git push origin nom-de-la-teva-feina
+git push origin feature/new-feature
 ```
 
-Després, crea un Pull Request:
+Then, create a Pull Request:
 
-1. Vés al teu fork al GitHub
-2. Clica a "Compare & pull request"
-3. Completa el formulari del Pull Request:
-   - **Títol**: Descripció clara del canvi
-   - **Descripció**: Explica què has fet i per què
-   - Marca qualsevol issue relacionat amb `closes #número`
+1. Go to your fork on GitHub
+2. Click "Compare & pull request"
+3. Fill out the Pull Request form:
+   - **Title**: Clear description of the change
+   - **Description**: Explain what you did and why
+   - Link any related issue with `closes #number`
 
-### 8. Revisió
+### 8. Review
 
-Jo revisaré el teu Pull Request i podria demanar-te canvis o aclariments. No t'amoïnis, això és part normal del procés!
+I will review your Pull Request and may ask for changes or clarifications. Don't worry, this is a normal part of the process!
 
-## 📋 Estil de Codi
+## 📋 Code Style
 
-Encara que no hi ha un estil estricte definit, intenta:
+While there is no strict style defined, try to:
 
-- Mantenir el codi net i llegible
-- Utilitzar noms descriptius per a variables i funcions
-- Comentar el codi complex si és necessari
-- Seguir l'estil existent del projecte
+- Keep code clean and readable
+- Use descriptive names for variables and functions
+- Comment complex code when necessary
+- Follow the existing project style
 
-## 🧪 Provar Abans de Contribuir
+## 🧪 Test Before Contributing
 
-Abans de fer el Pull Request, assegura't que:
+Before creating a Pull Request, make sure that:
 
-- ✅ El servidor de desenvolupament funciona: `pnpm dev`
-- ✅ Els canvis funcionen correctament
-- ✅ No has introduït errors nous
+- ✅ The development server works: in VS Code it auto-starts via `.vscode/tasks.json` (task `pnpm: dev`), otherwise run `pnpm dev` manually
+- ✅ The changes work correctly
+- ✅ You haven't introduced new errors
 
-## 💬 Preguntes?
+## 💬 Questions?
 
-Si tens qualsevol pregunta o dubte:
+If you have any questions or doubts:
 
-- Obre una issue al repositori
+- Open an issue in the repository
 
-## 🙏 Gràcies!
+## 🙏 Thank you!
 
-Gràcies per considerar contribuir a United nerds. La teva ajuda és molt apreciada i ajuda a fer créixer el moviment per acabar amb la discriminació cap als nerds!
+Thank you for considering contributing to United Nerds. Your help is greatly appreciated and helps grow the movement to end discrimination against nerds!

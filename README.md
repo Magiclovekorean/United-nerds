@@ -1,18 +1,18 @@
 # United Nerds
 
-**United nerds** és un moviment que busca aturar la discriminació, segregació i discriminació indirecta cap als nerds (els diferents).
+**United Nerds** is a movement that aims to stop discrimination, segregation, and indirect discrimination against nerds (people who are different).
 
-## 📖 Sobre el Projecte
+## 📖 About the Project
 
-Aquest és un lloc web creat amb Astro que presenta el moviment United nerds. El projecte busca crear consciència sobre la discriminació cap als nerds i promoure la inclusió i l'acceptació de les persones diferents.
+This is a website built with Astro that presents the United Nerds movement. The project aims to raise awareness about discrimination against nerds and promote inclusion and acceptance of people who are different.
 
-## 🚀 Tecnologies Utilitzades
+## 🚀 Technologies Used
 
-- **Astro** - Framework web modern per crear llocs estàtics ràpids
-- **CSS** - Estils globals amb variables i responsivitat
-- **Noto Sans** - Font de Google Fonts per a la tipografia
+- **Astro** - Modern web framework for building fast static sites
+- **CSS** - Global styles with variables and responsiveness
+- **Noto Sans** - Google Font for typography
 
-## 📁 Estructura del Projecte
+## 📁 Project Structure
 
 ```
 /
@@ -37,49 +37,60 @@ Aquest és un lloc web creat amb Astro que presenta el moviment United nerds. El
 └── pnpm-lock.yaml
 ```
 
-## 🔧 Comands
+## 🔧 Commands
 
-Tots els comandos s'executen des de l'arrel del projecte, des d'un terminal:
+All commands are run from the project root, in a terminal:
 
-| Comando              | Acció                                            |
+| Command              | Action                                          |
 | :------------------- | :----------------------------------------------- |
-| `pnpm install`       | Instal·la les dependències                       |
-| `pnpm dev`           | Inicia el servidor de desenvolupament a `localhost:4321` |
-| `pnpm build`         | Construeix el lloc per a producció a `./dist/`  |
-| `pnpm preview`       | Previsualitza la construcció localment abans de desplegar |
-| `pnpm astro ...`     | Executa comandes CLI com `astro add`, `astro check` |
-| `pnpm astro -- --help` | Obté ajuda usant l'Astro CLI                   |
+| `pnpm install`       | Install dependencies                             |
+| `pnpm dev`           | Start the development server at `localhost:4321` |
+| `pnpm build`         | Build the site for production to `./dist/`      |
+| `pnpm preview`       | Preview the local build before deploying         |
+| `pnpm astro ...`     | Run CLI commands like `astro add`, `astro check` |
+| `pnpm astro -- --help` | Get help using the Astro CLI                   |
 
-## 📄 Pàgines i Components
+## 📄 Pages and Components
 
-### Pàgina Principal (`index.astro`)
-Pàgina d'inici que inclou:
-- **Header**: Títol principal "UNITED NERDS"
-- **About**: Secció que explica què és el moviment United nerds
+### Home Page (`index.astro`)
+Home page includes:
+- **Header**: Main title "UNITED NERDS"
+- **About**: Section explaining what the United Nerds movement is
 
 ### Components
 
-- **Nav.astro**: Navegació principal amb enllaços a:
-  - Pàgina d'inici
-  - Repositori de GitHub per contribuir
+- **Nav.astro**: Main navigation with links to:
+  - Home page
+  - GitHub repository to contribute
   
-- **Hero.astro**: Component que mostra el títol principal del moviment
+- **Hero.astro**: Component that displays the main title of the movement
 
-- **About.astro**: Component que conté la descripció i missatge del moviment
+- **About.astro**: Component that contains the description and message of the movement
 
-- **Layout.astro**: Layout principal que inclou:
-  - Meta tags i configuració del document
-  - Càrrega de la font Noto Sans de Google Fonts
-  - Estructura HTML base amb el component Nav
+- **Layout.astro**: Main layout that includes:
+  - Meta tags and document configuration
+  - Loading of the Noto Sans font from Google Fonts
+  - Base HTML structure with the Nav component
 
-## 🎨 Estils
+## 🎨 Styles
 
-El projecte utilitza un tema fosc amb:
-- Color de fons: `#292E38`
-- Color de text: blanc amb variacions
+The project uses a dark theme with:
+- Background color: `#292E38`
+- Text color: white with variations
 - Font: Noto Sans (Google Fonts)
-- Navegació sticky amb icones i enllaços amb efectes hover
+- Sticky navigation with icons and hover effects
 
-## 📚 Recursos
+## 📚 Resources
 
-- [Documentació d'Astro](https://docs.astro.build)
+- [Astro Documentation](https://docs.astro.build)
+
+## 🧰 VS Code Tasks (.vscode/tasks.json)
+
+This repository includes a public `.vscode/tasks.json` file to make development easier in VS Code.
+
+- Available task:
+  - `pnpm: dev` — runs the development server (Vite) and is configured to auto-run when the folder opens in VS Code.
+- How to run manually:
+  - Open the Command Palette and run: “Tasks: Run Task” → select `pnpm: dev`.
+- Auto-run behavior:
+  - The task has `runOn: folderOpen`, so VS Code will prompt to run it when you open the workspace.
